@@ -1,0 +1,22 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+.TicTokMainContainer{
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	backdrop-filter: 5px;
+	background-color: #101010;
+}
+.titleHeader {
+	background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 50px;
+	font-style: italic;
+}

@@ -1,0 +1,21 @@
+.information {
+	width: 30vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: whitesmoke;
+}
+
+.players {
+	//border: 2px solid #E389B9;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	color: #F6B;
+	font-family: cursive;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 2rem;
+	//-webkit-box-shadow: 0 0 10px #EE4;
+    //box-shadow: 0 0 10px #EE4;
+}
