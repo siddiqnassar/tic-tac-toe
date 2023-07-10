@@ -83,7 +83,7 @@ const GameBoard = () => {
     <>
       <div className={`winnerContainer ${winner !== "" ? "" : "shrink"}`}>
         <div className="winner-text">{winner} </div>
-        <button className="resetButton" onClick={() => resetGame()}>Reset Board</button>
+        <button className="resetButton" onClick={() => resetGame()}>Reset Game</button>
       </div>
 
       <div ref={boardRef} className="board">
@@ -96,7 +96,7 @@ const GameBoard = () => {
         <div className="input" onClick={(e) => draw(e, 7)}></div>
         <div className="input" onClick={(e) => draw(e, 8)}></div>
         <div className="input" onClick={(e) => draw(e, 9)}></div>
-        <button className="resetButton" onClick={() => resetGame()}>Reset Board</button>
+        <button className="resetButton" onClick={() => resetGame()}>Reset Game</button>
       </div>
     </>
   );
