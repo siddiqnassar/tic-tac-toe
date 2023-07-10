@@ -36,7 +36,6 @@ const GameBoard = () => {
       event.target.classList.add("inputO");
     }
   };
-
   useEffect(() => {
     const checkRow = () => {
       let ans = false;
